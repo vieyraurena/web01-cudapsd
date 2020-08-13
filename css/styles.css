@@ -37,6 +37,12 @@ p {
   font-weight: 100;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /*healpears*/
 
 .clearfix::after {
@@ -60,6 +66,11 @@ p {
   width: 100%;
 }
 
+.blue-color {
+  background-color: #334b8e;
+  width: 100%;
+}
+
 /*purple-color*/
 /*header*/
 .header {
@@ -77,12 +88,6 @@ p {
   width: 458px;
   float: right;
   margin-top: 70px;
-}
-
-.nav-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .nav-list li {
@@ -124,6 +129,11 @@ p {
   font-size: 18px;
 }
 
+.content-button:hover {
+  background-color: #30bae7;
+  border-bottom: 5px solid #179ac5;
+}
+
 /*turquoise-color*/
 /*service*/
 .service {
@@ -156,4 +166,26 @@ p {
 
 /*blue-color*/
 /*footer*/
+
+.footer {
+  padding: 40px 57px 47px;
+  width: 982px;
+}
+
+.footer-list li{
+  float: left;
+}
+
+.footer-list li + li {
+  margin-left: 50px;
+}
+
+.footer-list a {
+  font-size: 20px;
+}
+
+.footer-list a:hover {
+  color: #30bae7;
+}
+
 
