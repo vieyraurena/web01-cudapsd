@@ -17,6 +17,26 @@ h1 {
   font-size: 42px;
 }
 
+h3{
+ font-size: 40px;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+ margin: 0  0 28px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 62px 0 28px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 100;
+}
+
 /*healpears*/
 
 .clearfix::after {
@@ -25,16 +45,20 @@ h1 {
   display: table;
 }
 
-.purple-color {
-  background-color: #87509c;
-  width: 100%;
-}
-
 .container {
   width: 1100px;
   margin: 0 auto;
 }
 
+.purple-color {
+  background-color: #87509c;
+  width: 100%;
+}
+
+.turquoise-color {
+  background-color: #16c2a3;
+  width: 100%;
+}
 
 /*purple-color*/
 /*header*/
@@ -101,14 +125,35 @@ h1 {
 }
 
 /*turquoise-color*/
-
 /*service*/
+.service {
+  padding-top: 119px;
+  margin-bottom: 84px;
+}
 
+.service-content {
+  width: 600px;
+  text-align: center;
+  margin: 0 251px;
+}
 
+/*service-image*/
 
+.box {
+  float: left;
+  width: 260px;
+  text-align: center;
+  margin-bottom: 127px;
+}
 
+.box + .box {
+  margin-left: 20px;
+}
 
-
+.box p {
+  padding: 0 35px;
+}
 
 /*blue-color*/
 /*footer*/
+
