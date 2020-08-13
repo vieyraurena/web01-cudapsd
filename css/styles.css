@@ -1,0 +1,114 @@
+/**globales*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff; 
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 42px;
+}
+
+/*healpears*/
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.purple-color {
+  background-color: #87509c;
+  width: 100%;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+
+/*purple-color*/
+/*header*/
+.header {
+  margin-bottom: 145px;
+}
+
+.logo {
+  float: left;
+  width: 117px;
+  padding-left: 42px;
+  padding-top: 57px;
+}
+
+.nav {
+  width: 458px;
+  float: right;
+  margin-top: 70px;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li + li {
+  margin-left: 30px;
+}
+
+.nav-list a{
+  font-size: 16px;
+}
+
+.nav a:hover {
+  width: 77px;
+  height: 32px;
+  padding: 10px 17px;
+  background-color: #633a79;
+  text-align: center;
+  border-radius: 3px;
+}
+
+/*main-content*/
+.main-content {
+  width: 907px;
+  text-align: center;
+  margin: 0 97px ;
+}
+
+.content-button {
+  width: 293px;
+  height: 42px;
+  padding: 28px 0 0 0;
+  border-radius: 5px;
+  border-bottom: 5px solid #c2663e; 
+  background-color: #eb7d4b;
+  margin: 62px 307px 145px;
+  font-size: 18px;
+}
+
+/*turquoise-color*/
+
+/*service*/
+
+
+
+
+
+
+
+/*blue-color*/
+/*footer*/
