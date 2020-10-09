@@ -1,0 +1,27 @@
+/*healpears*/
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.purple-color {
+  background-color: $purple-color;
+  width: 100%;
+}
+
+.turquoise-color {
+  background-color: $turquesa-color;
+  width: 100%;
+}
+
+.blue-color {
+  background-color: $blue-color;
+  width: 100%;
+}

@@ -1,0 +1,66 @@
+/*purple-color*/
+/*header*/
+.header {
+  margin-bottom: 145px;
+}
+
+.logo {
+  float: left;
+  width: 117px;
+  padding-left: 42px;
+  padding-top: 57px;
+}
+
+.nav {
+  width: 458px;
+  float: right;
+  margin-top: 70px;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li + li {
+  margin-left: 30px;
+}
+
+.nav-list a{
+  font-size: 16px;
+
+  &:hover {
+    width: 77px;
+    height: 32px;
+    padding: 10px 17px;
+    background-color: #7c588f;
+    text-align: center;
+    border-radius: 3px;
+  }
+  
+}
+
+
+/*main-content*/
+.main-content {
+  width: 907px;
+  text-align: center;
+  margin: 0 97px ;
+}
+
+.content-button {
+  width: 293px;
+  height: 42px;
+  padding: 28px 0 0 0;
+  border-radius: 5px;
+  border-bottom: 5px solid #c2663e; 
+  background-color: #eb7d4b;
+  margin: 62px 307px 145px;
+  font-size: 18px;
+  position: relative;
+
+
+  &:hover {
+    background-color: #30bae7;
+    border-bottom: 5px solid #179ac5;
+  }
+}

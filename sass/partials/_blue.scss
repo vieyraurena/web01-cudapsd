@@ -1,0 +1,23 @@
+/*blue-color*/
+/*footer*/
+
+.footer {
+  padding: 40px 57px 47px;
+  width: 982px;
+}
+
+.footer-list li{
+  float: left;
+}
+
+.footer-list li + li {
+  margin-left: 50px;
+}
+
+.footer-list a {
+  font-size: 20px;
+  
+  &:hover {
+    color: #30bae7;
+  }
+}
